@@ -1,0 +1,33 @@
+div.commentContainter{
+    display: flex;
+    flex-direction: row;
+    background: #ffff;
+    align-items: flex-start;
+}
+
+div.commentContainter img{
+    margin-top: 9px;
+} 
+div.commentContainter div.commentContent{
+    display: flex;
+    flex-direction: row;
+    background: #EEEEEE;
+    padding: 10px 5px 0px 15px;
+    margin-top: 10px;
+    margin-left: 10px;
+    border-radius: 20px;
+    line-height: 20px;
+    
+}
+
+div.commentContainter p{
+    font-size: 14px;
+    margin-left: 5px;
+    margin-bottom: 10px;
+}
+
+div.commentContainter div.divider {
+    width: 100%;
+    height: 1px;
+    background: #eeeeee;
+}

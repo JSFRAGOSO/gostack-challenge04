@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
+div.headerContainer{
+    background: #4A90E2;
+    width: 100%;
+    height: 64px;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+div.headerContainer img{
+    margin-left: 42px;
+    cursor: pointer;
+}
+
+div.headerContainer div{
+    margin-right: 42px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+div.headerContainer div span{
+    margin-right: 10px;
+}
